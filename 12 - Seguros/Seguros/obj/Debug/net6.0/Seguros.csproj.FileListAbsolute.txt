@@ -1,0 +1,15 @@
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\bin\Debug\net6.0\Seguros.exe
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\bin\Debug\net6.0\Seguros.deps.json
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\bin\Debug\net6.0\Seguros.runtimeconfig.json
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\bin\Debug\net6.0\Seguros.dll
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\bin\Debug\net6.0\Seguros.pdb
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\obj\Debug\net6.0\Seguros.csproj.AssemblyReference.cache
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\obj\Debug\net6.0\Seguros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\obj\Debug\net6.0\Seguros.AssemblyInfoInputs.cache
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\obj\Debug\net6.0\Seguros.AssemblyInfo.cs
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\obj\Debug\net6.0\Seguros.csproj.CoreCompileInputs.cache
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\obj\Debug\net6.0\Seguros.dll
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\obj\Debug\net6.0\refint\Seguros.dll
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\obj\Debug\net6.0\Seguros.pdb
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\obj\Debug\net6.0\Seguros.genruntimeconfig.cache
+C:\Users\ksousa\Documents\Exercícios\Seguros\Seguros\obj\Debug\net6.0\ref\Seguros.dll

@@ -1,0 +1,51 @@
+﻿@model Veiculo
+
+@{
+    ViewData["Title"] = "Cadastrar Veículo";
+}
+
+<h1>Cadastrar novo veículo</h1>
+
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["msg"]
+    </div>
+}
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="Modelo" class="form-label"></label>
+        <input asp-for="Modelo" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="DataFabricacao" class="form-label"></label>
+        <input asp-for="DataFabricacao" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Ano" class="form-label"></label>
+        <input asp-for="Ano" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Valor" class="form-label"></label>
+        <input asp-for="Valor" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Cor" class="form-label"></label>
+        <select asp-for="Cor" asp-items="@Html.GetEnumSelectList<Cor>()" class="form-cotrol">
+            <option>Selecione</option>
+            
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <input asp-for="Automatico" />
+        <label asp-for="Automatico" class="form-label"></label>
+    </div>
+
+    <input type="submit" value="Cadastrar" class="btn btn-primary" />
+</form>

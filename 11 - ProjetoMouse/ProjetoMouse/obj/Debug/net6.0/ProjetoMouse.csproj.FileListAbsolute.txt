@@ -1,0 +1,15 @@
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\bin\Debug\net6.0\ProjetoMouse.exe
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\bin\Debug\net6.0\ProjetoMouse.deps.json
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\bin\Debug\net6.0\ProjetoMouse.runtimeconfig.json
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\bin\Debug\net6.0\ProjetoMouse.dll
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\bin\Debug\net6.0\ProjetoMouse.pdb
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\obj\Debug\net6.0\ProjetoMouse.csproj.AssemblyReference.cache
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\obj\Debug\net6.0\ProjetoMouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\obj\Debug\net6.0\ProjetoMouse.AssemblyInfoInputs.cache
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\obj\Debug\net6.0\ProjetoMouse.AssemblyInfo.cs
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\obj\Debug\net6.0\ProjetoMouse.csproj.CoreCompileInputs.cache
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\obj\Debug\net6.0\ProjetoMouse.dll
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\obj\Debug\net6.0\refint\ProjetoMouse.dll
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\obj\Debug\net6.0\ProjetoMouse.pdb
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\obj\Debug\net6.0\ProjetoMouse.genruntimeconfig.cache
+C:\Users\ksousa\Documents\ProjetoMouse c#\ProjetoMouse\ProjetoMouse\obj\Debug\net6.0\ref\ProjetoMouse.dll

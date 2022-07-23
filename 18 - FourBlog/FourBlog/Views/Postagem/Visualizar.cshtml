@@ -1,0 +1,61 @@
+﻿@model PostVisualizarViewModel
+
+@{
+    ViewData["Title"] = "Visualizar";
+}
+
+<h1>@Model.Post.Titulo</h1>
+
+<form asp-action="Visualizar" class="mb-5">
+    <input type="hidden" asp-for="Post.PostagemId" />
+    <p>@Model.Post.DataCriacao</p>
+    <p class="text-center">@Model.Post.Texto</p>
+    <p>Tag: @Model.Post.Tag.Nome</p>
+    <p>Criado por: @Model.Post.Usuario.Nome</p>
+</form>
+
+<form asp-action="CriarComentario" class="mb-5">
+    <input type="hidden" asp-for="PostagemId" value="@Model.Post.PostagemId" />
+    <input type="hidden" asp-for="Post.UsuarioId" value="0" />
+    <div class="mb-1">
+        <label asp-for="Texto" class="form-label">Adicionar comentário</label>
+        <textarea asp-for="Texto" class="form-control" rows="3"></textarea>
+    </div>
+    <input type="submit" value="Comentar" class="btn btn-success" />
+</form>
+
+<mensagem texto="@TempData["msg"]"></mensagem>
+
+<form asp-action="Visualizar" class="mb-3">
+    <h5>Comentários</h5>
+    <table>
+
+        @foreach (Comentario comentario in Model.Comentarios)
+        {
+            if (comentario != null)
+            {
+                <tr>
+                    <th>Responsável: @comentario.Usuario?.Nome</th>
+                </tr>
+                <tr>
+                    <td>@comentario.Texto</td>
+                    <td>@comentario.DataHora</td>
+                </tr>
+            }
+            else
+            {
+                <div class="alert alert-warning" role="alert">
+                    Não há postagem cadastrada!
+                </div>
+            }
+        }
+    </table>
+</form>
+
+
+
+
+
+
+@*asp-route-id="@Model.PostagemId"*@
+

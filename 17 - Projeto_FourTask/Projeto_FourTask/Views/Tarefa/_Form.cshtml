@@ -1,0 +1,23 @@
+﻿@model Tarefa
+
+<div class="mb-3">
+        <label asp-for="Titulo" class="form-label"></label>
+        <input asp-for="Titulo" class="form-control" />
+        <span asp-validation-for="Titulo" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Descricao" class="form-label"></label>
+        <input asp-for="Descricao" class="form-control" />
+        <span asp-validation-for="Descricao" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="DataLimite" class="form-label"></label>
+        <input asp-for="DataLimite" class="form-control" />
+        <span asp-validation-for="DataLimite" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Equipe" class="form-label"></label>
+        <select asp-for="EquipeId" class="form-control" asp-items="ViewBag.equipes">
+            <option>Selecione</option>
+        </select>
+    </div>

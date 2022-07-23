@@ -1,0 +1,15 @@
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\bin\Debug\net6.0\Exercício03.exe
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\bin\Debug\net6.0\Exercício03.deps.json
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\bin\Debug\net6.0\Exercício03.runtimeconfig.json
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\bin\Debug\net6.0\Exercício03.dll
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\bin\Debug\net6.0\Exercício03.pdb
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\obj\Debug\net6.0\Exercício03.csproj.AssemblyReference.cache
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\obj\Debug\net6.0\Exercício03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\obj\Debug\net6.0\Exercício03.AssemblyInfoInputs.cache
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\obj\Debug\net6.0\Exercício03.AssemblyInfo.cs
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\obj\Debug\net6.0\Exercício03.csproj.CoreCompileInputs.cache
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\obj\Debug\net6.0\Exercício03.dll
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\obj\Debug\net6.0\refint\Exercício03.dll
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\obj\Debug\net6.0\Exercício03.pdb
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\obj\Debug\net6.0\Exercício03.genruntimeconfig.cache
+C:\Users\ksousa\Documents\Exercício 03 - Laço de repetição\Exercício03\Exercício03\obj\Debug\net6.0\ref\Exercício03.dll

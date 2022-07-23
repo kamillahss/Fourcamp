@@ -1,0 +1,43 @@
+﻿@model List<Veiculo>
+
+@{
+    ViewData["Title"] = "Listagem de veículos";
+}
+
+<h1>Listagem de veículos</h1>
+
+@if(TempData["msg"] != null)
+{
+    <div class="alert alert-primary">
+        @TempData["msg"]
+    </div>
+}
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Modelo</th>
+        <th>Data Fabricação</th>
+        <th>Ano</th>
+        <th>Valor</th>
+        <th>Cor</th>
+        <th>Automático</th>
+        <th>Ações</th>
+    </tr>
+
+    @foreach (Veiculo veiculo in Model)
+    {
+        <tr>
+            <td>@veiculo.Id</td>
+            <td>@veiculo.Modelo</td>
+            <td>@veiculo.DataFabricacao.ToShortDateString()</td>
+            <td>@veiculo.Ano</td>
+            <td>@veiculo.Valor.ToString("N")</td>
+            <td>@veiculo.Cor</td>
+            <td>@(veiculo.Automatico?"Sim":"Não")</td>
+            <td>
+                <a asp-action="Editar" asp-route-id="@veiculo.Id" class="btn btn-sm btn-warning">Editar</a>
+            </td>
+        </tr>
+    }
+</table>

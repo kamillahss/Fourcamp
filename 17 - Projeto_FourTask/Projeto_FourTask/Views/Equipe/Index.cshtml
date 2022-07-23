@@ -1,0 +1,102 @@
+﻿@model Equipe
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Área do usuário</h1>
+
+@*<mensagem texto="@TempData["msgErro"] class="alert alert-danger"></mensagem>*@
+<hr />
+<div>
+    <h2>Informações da Equipe</h2>
+    <p>Equipe: @TempData["exibirEquipe"]</p>
+    <p>Descrição: @TempData["exibirDescricao"]</p>
+    <p>Data de criação: @TempData["exibirData"]</p>
+    <p>Área: @TempData["exibirArea"]</p>
+</div>
+
+<hr />
+
+<div>
+    <h2>Lista de tarefas</h2>
+    <mensagem texto="@TempData["msg"]"></mensagem>
+    <mensagem texto="@TempData["msgDelete"]"></mensagem>
+    <table class="table table-striped">
+        <tr>
+            <th>Título</th>
+            <th>Descrição</th>
+            <th>Data da criação</th>
+            <th>Data Limite</th>
+            <th>Equipe</th>
+            <th>Ações</th>
+        </tr>
+
+        @foreach (Tarefa tarefa in ViewBag.Tarefas)
+        {
+            <tr>
+                <td>@tarefa.Titulo</td>
+                <td>@tarefa.Descricao</td>
+                <td>@tarefa.DataCriacao.ToShortDateString()</td>
+                <td>@tarefa.DataLimite.ToShortDateString()</td>
+                <td>@tarefa.Equipe.Nome</td>
+                <td>
+                    <button onclick="idTarefa.value = @tarefa.TarefaId" type="button" class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#AceitarTarefa">
+                        Aceitar
+                    </button>
+                    <a asp-controller="Tarefa" asp-action="Editar" asp-route-id="@tarefa.TarefaId" class="btn btn-sm btn-warning">Editar</a>
+                    <button onclick="IdTarefa.value= @tarefa.TarefaId" type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#RemoverTarefa">
+                        Remover
+                    </button>
+                </td>
+            </tr>
+        }
+    </table>
+
+</div>
+
+
+<!-- Modal Aceitar -->
+<div class="modal fade" id="AceitarTarefa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Confirmação</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Aceitar essa tarefa?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <form asp-action="AceitarTarefa">
+                    <input type="hidden" id="idTarefa" name="id" />
+                    <input type="submit" value="Aceitar" class="btn btn-success" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Remover -->
+<div class="modal fade" id="RemoverTarefa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel2">Confirmação</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Tem certeza que deseja remover essa tarefa?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <form asp-controller="Tarefa" asp-action="RemoverTarefa">
+                    <input type="hidden" id="IdTarefa" name="id" />
+                    <input type="submit" value="Remover" class="btn btn-danger" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

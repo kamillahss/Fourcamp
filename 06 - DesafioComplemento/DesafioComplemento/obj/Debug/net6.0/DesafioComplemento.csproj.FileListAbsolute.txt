@@ -1,0 +1,15 @@
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\bin\Debug\net6.0\DesafioComplemento.exe
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\bin\Debug\net6.0\DesafioComplemento.deps.json
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\bin\Debug\net6.0\DesafioComplemento.runtimeconfig.json
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\bin\Debug\net6.0\DesafioComplemento.dll
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\bin\Debug\net6.0\DesafioComplemento.pdb
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\obj\Debug\net6.0\DesafioComplemento.csproj.AssemblyReference.cache
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\obj\Debug\net6.0\DesafioComplemento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\obj\Debug\net6.0\DesafioComplemento.AssemblyInfoInputs.cache
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\obj\Debug\net6.0\DesafioComplemento.AssemblyInfo.cs
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\obj\Debug\net6.0\DesafioComplemento.csproj.CoreCompileInputs.cache
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\obj\Debug\net6.0\DesafioComplemento.dll
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\obj\Debug\net6.0\refint\DesafioComplemento.dll
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\obj\Debug\net6.0\DesafioComplemento.pdb
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\obj\Debug\net6.0\DesafioComplemento.genruntimeconfig.cache
+C:\Users\ksousa\Documents\Exercícios\DesafioComplemento\DesafioComplemento\obj\Debug\net6.0\ref\DesafioComplemento.dll

@@ -1,0 +1,46 @@
+﻿@model Tag
+
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<h1>Editar</h1>
+
+
+<form asp-action="Editar">
+    <input type="hidden" asp-for="TagId" />
+
+    <div class="mb-3">
+        <label asp-for="Nome" class="form-label"></label>
+        <input asp-for="Nome" class="form-control" />
+    </div>
+
+    <input type="submit" value="Editar" class="btn btn-warning" />
+    <button onclick="idTag.value= @Model.TagId" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Remover
+    </button>
+</form>
+
+
+
+<!-- Modal Remover -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Confirmação</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Você realmente deseja remover essa Tag?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <form asp-action="Remover">
+                    <input type="hidden" id="idTag" name="id" />
+                    <input type="submit" value="Remover" class="btn btn-danger" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

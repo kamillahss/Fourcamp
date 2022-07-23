@@ -1,0 +1,49 @@
+﻿@model TagViewModel
+@{
+    ViewData["Title"] = "Tags";
+}
+
+<h1>Tags</h1>
+<hr />
+
+<div class="row">
+
+    <div class="col">
+        <h2>Cadastrar uma nova tag</h2>
+        <mensagem texto="@TempData["msg"]"></mensagem>
+        <hr />
+        <form asp-action="Cadastrar">
+            <div class="mb-3">
+                <label asp-for="Tag.Nome" class="form-label"></label>
+                <input asp-for="Tag.Nome" class="form-control" />
+                <span asp-validation-for="Tag.Nome" class="text-danger"></span>
+            </div>
+            <input type="submit" value="Criar" class="btn btn-success" />
+        </form>
+    </div>
+
+    <div class="col">
+        <h2>Tags cadastradas</h2>
+        <mensagem texto="@TempData["msgEdit"]" class="alert alert-warning"></mensagem>
+        <mensagem texto="@TempData["msgRemove"]" class="alert alert-danger"></mensagem>
+        <hr />
+        <table class="table">
+            <tr>
+                <th>Nome</th>
+                <th>Editar</th>
+            </tr>
+            @foreach (Tag tag in Model.Tags)
+            {
+                <tr>
+                    <td>@tag.Nome</td>
+                    <td>
+                        <a asp-action="Editar" asp-route-id="@tag.TagId" class="btn btn-warning">Editar</a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+
+
+

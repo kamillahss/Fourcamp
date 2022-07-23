@@ -1,0 +1,13 @@
+﻿@model Filme
+
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<h1>Editar filme: ID @Model.Id</h1>
+
+<form asp-action="Editar">
+    <partial name="_Form"/>
+
+    <input type="submit" value="Editar" class="btn btn-primary" />
+</form>

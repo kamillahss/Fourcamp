@@ -1,0 +1,75 @@
+﻿@model List<Equipe>
+
+
+@{
+    ViewData["Title"] = "Listagem";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Lista de equipes</h1>
+<hr />
+
+<p>
+    Já está numa equipe? 
+    <a asp-action="Index">Clique aqui</a>
+    e volte para a Área do usuário!
+</p>
+
+
+<mensagem texto="@TempData["msg"]"></mensagem>
+
+<div>
+
+</div>
+@if (Model.Count > 0)
+{
+    <table class="table table-striped">
+        <tr>
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Área de atuação</th>
+            <th>Data da criação</th>
+            <th>Ações</th>
+        </tr>
+
+        
+        @foreach (Equipe equipe in Model)
+        {
+            <tr>
+                <td>@equipe.Nome</td>
+                <td>@equipe.Descricao</td>
+                <td>@equipe.AreaAtuacao</td>
+                <td>@equipe.DataCriacao.ToShortDateString()</td>
+                <td>
+                    <button onclick="idEquipe.value = @equipe.EquipeId" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#EntrarEquipe">
+                        Entrar
+                    </button>
+                </td>
+            </tr>
+        }
+
+    </table>
+}
+
+
+<!-- Modal -->
+<div class="modal fade" id="EntrarEquipe" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Confirmação</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Você realmente deseja entrar nessa equipe?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <form asp-action="AcessarEquipe">
+                    <input type="hidden" id="idEquipe" name="id" />
+                    <input type="submit" value="Entrar" class="btn btn-success" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

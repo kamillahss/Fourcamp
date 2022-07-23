@@ -1,0 +1,88 @@
+﻿@model List<Filme>
+
+@{
+    ViewData["Title"] = "Lista de filmes";
+}
+
+<a asp-action="Cadastrar">Cadastro</a>
+
+<h1>Lista de filmes:</h1>
+
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-warning">
+        @TempData["msg"]
+    </div>
+}
+
+@if (TempData["msgDelete"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["msgDelete"]
+    </div>
+}
+
+<hr />
+@if (Model.Count > 0)
+{
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Duração</th>
+            <th>Sinopse</th>
+            <th>Classificação</th>
+            <th>Gênero</th>
+            <th>Ações</th>
+        </tr>
+
+        @foreach (Filme filme in Model)
+        {
+            <tr>
+                <td>@filme.Id</td>
+                <td>@filme.Nome</td>
+                <td>@filme.Duracao</td>
+                <td>@filme.Sinopse</td>
+                <td>@filme.Classificacao</td>
+                <td>@filme.Genero</td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@filme.Id" class="btn btn-sm btn-warning"><img src="~/img/escrever.png" width="20" alt="editar" /></a>
+                    <!-- Button trigger modal -->
+                    <button onclick="idFilme.value = @filme.Id" type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="~/img/lata-de-lixo.png" width="20" alt="remover">
+                    </button>
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <div class="alert alert-danger">Nenhum filme cadastrado!</div>
+}
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Confirmação: </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Deseja remover o filme?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                <form asp-action="Remover">
+                    <input type="hidden" name="id" id="idFilme">
+                    <input type="submit" class="btn btn-danger" value="Remover">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

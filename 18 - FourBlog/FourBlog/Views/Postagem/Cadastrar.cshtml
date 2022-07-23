@@ -1,0 +1,31 @@
+﻿@model PostCadastrarViewModel
+
+@{
+    ViewData["Title"] = "Cadastrar";
+}
+
+<h1>Cadastrar</h1>
+
+<mensagem texto="@TempData["msg"]"></mensagem>
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Cadastrar">
+    <input type="hidden" asp-for="Postagem.UsuarioId" value="0" />
+    <div class="mb-3">
+        <label asp-for="Postagem.Titulo" class="form-label"></label>
+        <input asp-for="Postagem.Titulo" class="form-control" />
+        <span asp-validation-for="Postagem.Titulo" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Postagem.Texto" class="form-label"></label>
+        <textarea asp-for="Postagem.Texto" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Postagem.Texto" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Postagem.Tag" class="form-label"></label>
+        <select asp-for="Postagem.TagId" asp-items="Model.TagsSelect" class="form-cotrol">
+            <option>Selecione</option>
+        </select>
+    </div>
+    <input type="submit" value="Cadastrar" class="btn btn-outline-success" />
+</form>

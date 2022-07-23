@@ -1,0 +1,15 @@
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\bin\Debug\net6.0\ExerciciosArquivo.exe
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\bin\Debug\net6.0\ExerciciosArquivo.deps.json
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\bin\Debug\net6.0\ExerciciosArquivo.runtimeconfig.json
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\bin\Debug\net6.0\ExerciciosArquivo.dll
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\bin\Debug\net6.0\ExerciciosArquivo.pdb
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\obj\Debug\net6.0\ExerciciosArquivo.csproj.AssemblyReference.cache
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\obj\Debug\net6.0\ExerciciosArquivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\obj\Debug\net6.0\ExerciciosArquivo.AssemblyInfoInputs.cache
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\obj\Debug\net6.0\ExerciciosArquivo.AssemblyInfo.cs
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\obj\Debug\net6.0\ExerciciosArquivo.csproj.CoreCompileInputs.cache
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\obj\Debug\net6.0\ExerciciosArquivo.dll
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\obj\Debug\net6.0\refint\ExerciciosArquivo.dll
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\obj\Debug\net6.0\ExerciciosArquivo.pdb
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\obj\Debug\net6.0\ExerciciosArquivo.genruntimeconfig.cache
+C:\Users\ksousa\Documents\Exercícios\ExerciciosArquivo\ExerciciosArquivo\obj\Debug\net6.0\ref\ExerciciosArquivo.dll

@@ -1,0 +1,15 @@
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\bin\Debug\net6.0\DesafioPolimorfismo.exe
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\bin\Debug\net6.0\DesafioPolimorfismo.deps.json
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\bin\Debug\net6.0\DesafioPolimorfismo.runtimeconfig.json
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\bin\Debug\net6.0\DesafioPolimorfismo.dll
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\bin\Debug\net6.0\DesafioPolimorfismo.pdb
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\obj\Debug\net6.0\DesafioPolimorfismo.csproj.AssemblyReference.cache
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\obj\Debug\net6.0\DesafioPolimorfismo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\obj\Debug\net6.0\DesafioPolimorfismo.AssemblyInfoInputs.cache
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\obj\Debug\net6.0\DesafioPolimorfismo.AssemblyInfo.cs
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\obj\Debug\net6.0\DesafioPolimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\obj\Debug\net6.0\DesafioPolimorfismo.dll
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\obj\Debug\net6.0\refint\DesafioPolimorfismo.dll
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\obj\Debug\net6.0\DesafioPolimorfismo.pdb
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\obj\Debug\net6.0\DesafioPolimorfismo.genruntimeconfig.cache
+C:\Users\ksousa\Documents\Exercícios\DesafioPolimorfismo\DesafioPolimorfismo\obj\Debug\net6.0\ref\DesafioPolimorfismo.dll

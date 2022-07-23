@@ -1,0 +1,17 @@
+﻿@model Tarefa
+
+@{
+    ViewData["Title"] = "Editar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Editar Tarefa @Model.Titulo</h1>
+
+<mensagem texto="@TempData["msg"]" class="alert alert-warning"></mensagem>
+
+<form asp-action="Editar">
+    <input type="hidden" asp-for="TarefaId" />
+    <partial name="_Form"/>
+    <input type="submit" value="Editar" class="btn btn-outline-success" />
+
+</form>

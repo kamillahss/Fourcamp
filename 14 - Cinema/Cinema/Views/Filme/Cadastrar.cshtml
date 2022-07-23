@@ -1,0 +1,22 @@
+﻿@model Filme
+
+@{
+    ViewData["Title"] = "Cadastrar";
+}
+
+<a asp-action="Index">Lista de filmes</a>
+
+<h1>Cadastrar</h1>
+
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["msg"]
+    </div>
+}
+
+<form method="post">
+    <partial name="_Form"/>
+
+    <input type="submit" value="Cadastrar" class="btn btn-primary" />
+</form>

@@ -1,0 +1,40 @@
+﻿@model List<Postagem>
+
+@{
+    ViewData["Title"] = "Postagens";
+}
+
+<h1>Postagens</h1>
+
+
+<form class="d-flex mb-3" style="max-width: 500px;">
+    <input class="form-control  mr-sm-2" type="search" name="tagBusca" placeholder="Digite uma tag">
+    <input class="btn btn-outline-success" type="submit" value="Pesquisar" />
+</form>
+
+@if (Model != null)
+{
+    @foreach (Postagem post in Model)
+    {
+        <div class="card mb-3">
+            <div class="card-header">
+                @post.Tag.Nome
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">@post.Titulo</h5>
+                <p class="card-text">@post.Texto</p>
+                @*<a asp-action="Visualizar" asp-route-id="@post.PostagemId" class="btn btn-sm btn-primary">Visualizar</a>*@
+            </div>
+            <a asp-action="Visualizar" asp-route-id="@post.PostagemId" class="btn btn-sm btn-primary">Visualizar</a>
+            <div class="card-footer text-muted">
+                @post.DataCriacao
+            </div>
+        </div>
+    }
+}
+else
+{
+    <div class="alert alert-warning" role="alert">
+        Não há postagem cadastrada!
+    </div>
+}
